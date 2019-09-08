@@ -1,0 +1,43 @@
+{
+  "name": "tslint-rule-sorted-lines",
+  "main": "tslint-base.json",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amonks/tslint-rule-sort.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "tslint": "^5.19.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/**/*.spec.(ts|tsx)"
+    ],
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amonks/tslint-rule-sort/issues"
+  },
+  "homepage": "https://github.com/eranshabi/tslint-rule-sort#readme"
+}
