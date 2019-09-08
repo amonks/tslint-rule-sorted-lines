@@ -1,6 +1,7 @@
 {
   "name": "tslint-rule-sorted-lines",
   "main": "tslint-base.json",
+  "files": ["dist"],
   "version": "1.0.0",
   "description": "",
   "scripts": {
